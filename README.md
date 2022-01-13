@@ -19,7 +19,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 
 ## Dataset Preparation
 All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
-All datasets need to put under the 'data/' folder.
+All datasets need to put under the 'classification/data/' folder.
 
 ## Running Experiments
 As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
