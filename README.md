@@ -20,9 +20,12 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 ## Dataset Preparation
 All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the data can also be directly obtained from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
 
-## Experiment results
+## Running Experiments
+
+
+## Experiment Results
 <p align="center">
-  <img width="1000" src="https://user-images.githubusercontent.com/23077770/149400378-6c14057b-6b6f-47a2-b8c3-fcaa57e640fb.png">
+  <img width="1000" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
 </p>
 <p align="center">
   <em>Fig. 2 classification results on the Manifoldron and its counterparts.</em>
