@@ -22,7 +22,7 @@ All datasets are publicly available from python scikit-learn package, UCI machin
 All datasets need to put under the 'data/' folder.
 
 ## Running Experiments
-Below shows how different version of the Manifoldron runs on *tic-tac-toe* data.
+As a demo, below shows how different versions of the Manifoldron runs on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
