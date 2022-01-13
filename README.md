@@ -18,7 +18,19 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 **fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
 
 ## Dataset Preparation
-All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
+All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. [circle](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make\_circles.html), [glass](https://archive.ics.uci.edu/ml/datasets/glass+identification), [ionosphere](https://archive.ics.uci.edu/ml/datasets/ionosphere), [iris](https://scikit-learn.org/stable/auto\_examples/datasets/plot\_iris\_dataset.html),  [moons](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make\_moons.html), [parkinsons](https://archive.ics.uci.edu/ml/datasets/parkinsons), [seeds](https://archive.ics.uci.edu/ml/datasets/seeds), [spirals](https://github.com/Swarzinium-369/Two\_Spiral\_Problem), [wine](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load\_wine.html), 
+[banknote](https://archive.ics.uci.edu/ml/datasets/banknote+authentication),
+[breast](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)),
+[chess](https://archive.ics.uci.edu/ml/datasets/Chess+(King-Rook+vs.+King-Pawn)),
+[drug](https://archive.ics.uci.edu/ml/datasets/Drug+consumption+\%28quantified\%29),
+[letRecog](https://archive.ics.uci.edu/ml/datasets/Letter+Recognition),
+[magic04](https://archive.ics.uci.edu/ml/datasets/magic+gamma+telescope),
+[nursery](https://archive.ics.uci.edu/ml/datasets/nursery),
+[satimage](https://archive.ics.uci.edu/ml/datasets/Statlog+(Landsat+Satellite)),
+[semeion](https://archive.ics.uci.edu/ml/datasets/semeion+handwritten+digit),
+[tic-tac-toe](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame),
+[usps5](https://www.kaggle.com/bistaumanga/usps-dataset).
+Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
 All datasets need to put under the 'classification/data/' folder.
 
 ## Running Experiments
@@ -28,6 +40,7 @@ As a demo, below shows how different versions of the Manifoldron run on *tic-tac
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
 >> python manifoldron_parallel.py   # the manifoldron with parallel computation
 ```
+If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file
 
 ## Experiment Results
 <p align="center">
