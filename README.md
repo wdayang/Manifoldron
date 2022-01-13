@@ -8,7 +8,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 </p>
 
 ## Pre-requisites:
-- Windows(runned on windows 10)
+- Windows(runned on windows 10, can also run on Ubuntu with the required packages)
 - Intell CPU(runned on 12 cores i7-8700 CPU @ 3.20GHZ)
 - Python=3.7, numpy=1.18.5, pandas=0.25.3, scikit-learn=0.22.1, scipy=1.3.2, matplotlib=3.1.1.
 
@@ -18,7 +18,8 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 **fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
 
 ## Dataset Preparation
-All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
+All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
+All datasets need to put under the 'data/' folder.
 
 ## Running Experiments
 Below shows how different version of the Manifoldron runs on *tic-tac-toe* data.
@@ -30,8 +31,26 @@ Below shows how different version of the Manifoldron runs on *tic-tac-toe* data.
 
 ## Experiment Results
 <p align="center">
-  <img width="1000" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
+  <em>Tab. 1 classification results on the Manifoldron and its counterparts.</em>
 </p>
 <p align="center">
-  <em>Fig. 2 classification results on the Manifoldron and its counterparts.</em>
+  <img width="1000" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
 </p>
+
+
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/23077770/149415337-d109d7a3-9961-4c8f-bdec-24d34aa001e3.png">
+</p>
+<p align="center">
+  <em>Fig. 2 Complex simplices.</em>
+</p>
+
+<p align="center">
+  <em>Tab. 2 Results on complex simplices.</em>
+</p>
+<p align="center">
+  <img width="800" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
+</p>
+
+
+
