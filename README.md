@@ -3,4 +3,4 @@ This respository includes implementations on Manifoldron: Direct Space Partition
 
 **classification**: this directory contains the implementations on classfication tasks;<br/>
 **regression**: this directory contains implementations on simple regression tasks;<br/>
-**fancy_manifoldron**: this directory includes implementations on complex manifolds.<br/>
+**fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
