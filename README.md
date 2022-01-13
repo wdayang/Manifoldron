@@ -18,10 +18,15 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 **fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
 
 ## Dataset Preparation
-All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the data can also be directly obtained from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
+All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
 
 ## Running Experiments
-
+Below shows how different version of the Manifoldron runs on *tic-tac-toe* data.
+```ruby
+>> python manifoldron_base.py       # the base manifoldron
+>> python manifoldron_bagging.py    # the manifoldron with feature bagging
+>> python manifoldron_parallel.py   # the manifoldron with parallel computation
+```
 
 ## Experiment Results
 <p align="center">
