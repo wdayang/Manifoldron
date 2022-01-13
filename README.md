@@ -10,7 +10,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 ## Pre-requisites:
 - Windows(runned on windows 10, can also run on Ubuntu with the required packages)
 - Intell CPU(runned on 12 cores i7-8700 CPU @ 3.20GHZ)
-- Python=3.7, numpy=1.18.5, pandas=0.25.3, scikit-learn=0.22.1, scipy=1.3.2, matplotlib=3.1.1.
+- Python=3.7 (Anaconda), numpy=1.18.5, pandas=0.25.3, scikit-learn=0.22.1, scipy=1.3.2, matplotlib=3.1.1.
 
 ## Folders 
 **classification**: this directory contains the implementations on classfication tasks;<br/>
