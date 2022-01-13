@@ -12,7 +12,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 - Intell CPU(runned on 12 cores i7-8700 CPU @ 3.20GHZ)
 - Python=3.7, numpy=1.18.5, pandas=0.25.3, scikit-learn=0.22.1, scipy=1.3.2, matplotlib=3.1.1.
 
-## Files 
+## Folders 
 **classification**: this directory contains the implementations on classfication tasks;<br/>
 **regression**: this directory contains implementations on simple regression tasks;<br/>
 **fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
@@ -22,7 +22,7 @@ All datasets are publicly available from python scikit-learn package, UCI machin
 All datasets need to put under the 'data/' folder.
 
 ## Running Experiments
-As a demo, below shows how different versions of the Manifoldron runs on *tic-tac-toe* data.
+As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
