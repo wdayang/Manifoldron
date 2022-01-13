@@ -34,13 +34,17 @@ Most of the datasets can also directly obtain from our shared google drive. http
 All datasets need to put under the 'classification/data/' folder.
 
 ## Running Experiments
-As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
+**Classification:** as a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
 >> python manifoldron_parallel.py   # the manifoldron with parallel computation
 ```
-If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file
+If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>
+**Regression:** go to 'regression/' folder and run cooresponding .py file to run the manifoldron as regressor.
+```ruby
+>> python regressor_function1.py       # the manifoldron regressor.
+```
 
 ## Experiment Results
 <p align="center">
