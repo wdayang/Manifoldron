@@ -18,6 +18,12 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 **fancy_manifoldron**: this directory includes implementations on 3D complex manifolds.<br/>
 
 ## Dataset Preparation
-All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the data can also be obtained from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
+All datasets are publicly available from python scikit-learn package, UCI machine learning repository, Kaggle, and Github. Most of the data can also be directly obtained from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing
 
-## Demo results
+## Experiment results
+<p align="center">
+  <img width="1000" src="https://user-images.githubusercontent.com/23077770/149400378-6c14057b-6b6f-47a2-b8c3-fcaa57e640fb.png">
+</p>
+<p align="center">
+  <em>Fig. 2 classification results on the Manifoldron and its counterparts.</em>
+</p>
