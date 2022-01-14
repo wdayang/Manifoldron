@@ -37,22 +37,6 @@ Most datasets can also be directly obtained from our shared google drive. https:
 All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific datasets.
 
 ## Running Experiments
-### Classification
-As a demo, the below scripts show how different versions of the Manifoldron run on *tic-tac-toe* data.
-```ruby
->> python manifoldron_base.py       # the base manifoldron
->> python manifoldron_bagging.py    # the manifoldron with feature bagging
->> python manifoldron_parallel.py   # the manifoldron with parallel computation
-```
-If you would like to run the Manifoldron on other representative classification datasets, please go to 'classification/' folder and run cooresponding .py file. We also provide a classification demonstration on the 2D spiral dataset: https://colab.research.google.com/drive/1fK4OD27BYvmVdOorjartuf1CcaQe5PPK?usp=sharing
-#### Experiment Results
-<p align="center">
-  <em>Tab. 1 Classification results of the Manifoldron and its competitors.</em>
-</p>
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
-</p>
-
 ### Classification on fancy manifolds
 Please first go to 'fancy_manifoldron/manifold generation/' to generate complex manifolds in matlab, copy the generated dataset to 'fancy_manifoldron/comparision/', then run the .py file for classification. 
 
@@ -74,6 +58,23 @@ Please first go to 'fancy_manifoldron/manifold generation/' to generate complex 
 </p>
 <p align="center">
   <img width="750" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
+</p>
+
+### Classification
+
+As a demo, the below scripts show how different versions of the Manifoldron run on *tic-tac-toe* data.
+```ruby
+>> python manifoldron_base.py       # the base manifoldron
+>> python manifoldron_bagging.py    # the manifoldron with feature bagging
+>> python manifoldron_parallel.py   # the manifoldron with parallel computation
+```
+If you would like to run the Manifoldron on other representative classification datasets, please go to 'classification/' folder and run cooresponding .py file. We also provide a classification demonstration on the 2D spiral dataset: https://colab.research.google.com/drive/1fK4OD27BYvmVdOorjartuf1CcaQe5PPK?usp=sharing
+#### Experiment Results
+<p align="center">
+  <em>Tab. 1 Classification results of the Manifoldron and its competitors.</em>
+</p>
+<p align="center">
+  <img width="800" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
 </p>
 
 ### Regression
