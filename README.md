@@ -11,8 +11,8 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 </p>
 
 ## Pre-requisites:
-- Windows(runned on windows 10, can also run on Ubuntu with the required packages)
-- Intell CPU(runned on 12 cores i7-8700 CPU @ 3.20GHZ)
+- Windows (runned on windows 10, can also run on Ubuntu with the required packages)
+- Intell CPU (runned on 12 cores i7-8700 CPU @ 3.20GHZ)
 - Python=3.7 (Anaconda), numpy=1.18.5, pandas=0.25.3, scikit-learn=0.22.1, scipy=1.3.2, matplotlib=3.1.1.
 
 ## Folders 
@@ -33,8 +33,8 @@ All datasets are publicly available from python scikit-learn package, UCI machin
 [semeion](https://archive.ics.uci.edu/ml/datasets/semeion+handwritten+digit),
 [tic-tac-toe](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame), and 
 [usps5](https://www.kaggle.com/bistaumanga/usps-dataset).
-Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
-All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific data.
+Most datasets can also be directly obtained from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
+All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific datasets.
 
 ## Running Experiments
 ### Classification
