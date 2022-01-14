@@ -1,7 +1,7 @@
 # Manifoldron: Direct Space Partition via Manifold Discovery
 This respository includes implementations on *Manifoldron: Direct Space Partition via Manifold Discovery* in which we propose a new type of machine learning models referred to as Manifoldron that directly derives decision boundaries from data and partitions the space via manifold structure discovery. Also, we systematically analyze the key characteristics of the Manifoldron including interpretability, manifold characterization capability, and its link to neural networks. The experimental results on 9 small and 11 large datasets demonstrate that the proposed Manifoldron performs competitively compared to the mainstream machine learning models.
 <p align="center">
-  <img width="400" src="https://github.com/wdayang/Manifoldron/blob/main/figures/Manifoldron_gif.gif">
+  <img width="380" src="https://github.com/wdayang/Manifoldron/blob/main/figures/Manifoldron_gif.gif">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img width="520" src="https://user-images.githubusercontent.com/23077770/149440089-e31072ed-1f42-49aa-8590-155236223a0a.png">
 </p>
