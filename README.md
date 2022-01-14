@@ -35,7 +35,7 @@ Most of the datasets can also directly obtain from our shared google drive. http
 All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific data.
 
 ## Running Experiments
-### Classification:
+### Classification
 As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
@@ -53,6 +53,13 @@ If you would like to run the Manifoldron on other representative classification 
 
 ### Classification on fancy manifolds
 First go to 'fancy_manifoldron/manifold generation/' to generate complex manifolds in matlab, copy the generated dataset to 'fancy_manifoldron/comparision/', then run the .py file for classification. 
+
+```ruby
+>> matlab PlotDoubleCurlySpiral.m            # generate complex manifolds
+>> copy [generated txt data path] [fancy_manifoldron/comparision/]    # move the generated data to disired path
+>> python TwoCurlySpirals_manifold.py        # the manifoldron on complex manifolds
+```
+
 <p align="center">
   <img width="700" src="https://user-images.githubusercontent.com/23077770/149415337-d109d7a3-9961-4c8f-bdec-24d34aa001e3.png">
 </p>
