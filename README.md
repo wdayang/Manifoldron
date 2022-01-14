@@ -30,7 +30,7 @@ All datasets are publicly available from python scikit-learn package, UCI machin
 [nursery](https://archive.ics.uci.edu/ml/datasets/nursery),
 [satimage](https://archive.ics.uci.edu/ml/datasets/Statlog+(Landsat+Satellite)),
 [semeion](https://archive.ics.uci.edu/ml/datasets/semeion+handwritten+digit),
-[tic-tac-toe](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame),
+[tic-tac-toe](https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame), and 
 [usps5](https://www.kaggle.com/bistaumanga/usps-dataset).
 Most of the datasets can also directly obtain from our shared google drive. https://drive.google.com/drive/folders/14VHR8H7ucp0Loob1PS9yrgTtE9Jm0wsK?usp=sharing. <br/>
 All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific data.
