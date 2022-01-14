@@ -9,20 +9,6 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
   <em>Fig. 1 The key steps and the pipeline of the Manifoldron.</em>
 </p>
 
-<!-- <p align="center">
-  <img width="480" src="https://user-images.githubusercontent.com/23077770/149440089-e31072ed-1f42-49aa-8590-155236223a0a.png">
-</p>
-<p align="center">
-  <em>Fig. 1 Pipeline of the Manifoldron.</em>
-</p>
-
-<p align="center">
-  <img width="400" src="https://github.com/wdayang/Manifoldron/blob/main/figures/Manifoldron_gif.gif">
-</p>
-<p align="center">
-  <em>Fig. 1 Pipeline of the Manifoldron.</em>
-</p> -->
-
 ## Pre-requisites:
 - Windows(runned on windows 10, can also run on Ubuntu with the required packages)
 - Intell CPU(runned on 12 cores i7-8700 CPU @ 3.20GHZ)
@@ -57,7 +43,7 @@ As a demo, below shows how different versions of the Manifoldron run on *tic-tac
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
 >> python manifoldron_parallel.py   # the manifoldron with parallel computation
 ```
-If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>. https://colab.research.google.com/drive/1fK4OD27BYvmVdOorjartuf1CcaQe5PPK?usp=sharing
+If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>. We alos provide a manifoldron demonstration on 2D spiral data: https://colab.research.google.com/drive/1fK4OD27BYvmVdOorjartuf1CcaQe5PPK?usp=sharing
 #### Experiment Results
 <p align="center">
   <em>Tab. 1 classification results on the Manifoldron and its counterparts.</em>
