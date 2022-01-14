@@ -57,7 +57,7 @@ As a demo, below shows how different versions of the Manifoldron run on *tic-tac
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
 >> python manifoldron_parallel.py   # the manifoldron with parallel computation
 ```
-If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>
+If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>. https://colab.research.google.com/drive/1fK4OD27BYvmVdOorjartuf1CcaQe5PPK?usp=sharing
 #### Experiment Results
 <p align="center">
   <em>Tab. 1 classification results on the Manifoldron and its counterparts.</em>
