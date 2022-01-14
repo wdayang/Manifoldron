@@ -77,7 +77,7 @@ Please first go to 'fancy_manifoldron/manifold generation/' to generate complex 
 </p>
 
 ### Regression
-Go to 'regression/' folder and run cooresponding .py file to run the manifoldron as regressor.
+Please go to 'regression/' folder and then run cooresponding .py file to run the manifoldron as regressor.
 ```ruby
 >> python regressor_function1.py       # the manifoldron regressor.
 ```
