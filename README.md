@@ -8,7 +8,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
 </p>
 
 <p align="center">
-  <img width="480" src="https://github.com/wdayang/Manifoldron/blob/main/figures/Manifoldron_gif.gif">
+  <img width="400" src="https://github.com/wdayang/Manifoldron/blob/main/figures/Manifoldron_gif.gif">
 </p>
 <p align="center">
   <em>Fig. 1 Pipeline of the Manifoldron.</em>
