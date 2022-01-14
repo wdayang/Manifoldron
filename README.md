@@ -4,7 +4,7 @@ This respository includes implementations on *Manifoldron: Direct Space Partitio
   <img width="480" src="https://user-images.githubusercontent.com/23077770/149440089-e31072ed-1f42-49aa-8590-155236223a0a.png">
 </p>
 <p align="center">
-  <em>Fig. 1 (a) Pipeline of the Manifoldron. (b) The Manifoldron key steps illustration.</em>
+  <em>Fig. 1 Pipeline of the Manifoldron.</em>
 </p>
 
 
