@@ -66,7 +66,7 @@ If you would like to run the Manifoldron on other representative classification 
   <em>Tab. 2 Results on complex simplices.</em>
 </p>
 <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
+  <img width="750" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
 </p>
 
 
