@@ -51,8 +51,8 @@ If you would like to run the Manifoldron on other representative classification 
   <img width="1000" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
 </p>
 
-### Classification on fancy manifolds:
-Go to 'fancy_manifoldron/', 
+### Classification on fancy manifolds
+First go to 'fancy_manifoldron/manifold generation/' to generate complex manifolds in matlab, copy the generated dataset to 'fancy_manifoldron/comparision/', then run the .py file for classification. 
 <p align="center">
   <img width="700" src="https://user-images.githubusercontent.com/23077770/149415337-d109d7a3-9961-4c8f-bdec-24d34aa001e3.png">
 </p>
@@ -67,7 +67,7 @@ Go to 'fancy_manifoldron/',
   <img width="750" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
 </p>
 
-### Regression:
+### Regression
 Go to 'regression/' folder and run cooresponding .py file to run the manifoldron as regressor.
 ```ruby
 >> python regressor_function1.py       # the manifoldron regressor.
