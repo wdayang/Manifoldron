@@ -35,19 +35,15 @@ Most of the datasets can also directly obtain from our shared google drive. http
 All datasets need to put under the 'classification/data/' folder to run the Manifoldron on specific data.
 
 ## Running Experiments
-**Classification:** as a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
+### Classification:
+As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
 >> python manifoldron_parallel.py   # the manifoldron with parallel computation
 ```
 If you would like to run the Manifoldron on other representative classification datasets, go to 'classification/' folder and run cooresponding .py file <br/>
-**Regression:** go to 'regression/' folder and run cooresponding .py file to run the manifoldron as regressor.
-```ruby
->> python regressor_function1.py       # the manifoldron regressor.
-```
-
-## Experiment Results
+#### Experiment Results
 <p align="center">
   <em>Tab. 1 classification results on the Manifoldron and its counterparts.</em>
 </p>
@@ -55,20 +51,24 @@ If you would like to run the Manifoldron on other representative classification 
   <img width="1000" src="https://user-images.githubusercontent.com/23077770/149402070-63cb13d4-0026-4e75-bbcd-d3be6c5a5553.png">
 </p>
 
-
+### Classification on fancy manifolds:
+Go to 'fancy_manifoldron/', 
 <p align="center">
   <img width="700" src="https://user-images.githubusercontent.com/23077770/149415337-d109d7a3-9961-4c8f-bdec-24d34aa001e3.png">
 </p>
 <p align="center">
-  <em>Fig. 2 Complex simplices.</em>
+  <em>Fig. 2 Complex manifolds.</em>
 </p>
 
 <p align="center">
-  <em>Tab. 2 Results on complex simplices.</em>
+  <em>Tab. 2 Results on complex manifolds.</em>
 </p>
 <p align="center">
   <img width="750" src="https://user-images.githubusercontent.com/23077770/149415839-04f8ac01-a1a0-4aa5-9eda-4fe467281f15.png">
 </p>
 
-
-
+### Regression:
+Go to 'regression/' folder and run cooresponding .py file to run the manifoldron as regressor.
+```ruby
+>> python regressor_function1.py       # the manifoldron regressor.
+```
