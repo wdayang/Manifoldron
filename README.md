@@ -38,7 +38,7 @@ All datasets need to put under the 'classification/data/' folder to run the Mani
 
 ## Running Experiments
 ### Classification
-As a demo, below shows how different versions of the Manifoldron run on *tic-tac-toe* data.
+As a demo, the below scripts show how different versions of the Manifoldron run on *tic-tac-toe* data.
 ```ruby
 >> python manifoldron_base.py       # the base manifoldron
 >> python manifoldron_bagging.py    # the manifoldron with feature bagging
